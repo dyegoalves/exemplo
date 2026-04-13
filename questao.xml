@@ -1,141 +1,199 @@
-<!-- question: q3 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
 <question type="multichoice">
-  <name><text>q3</text></name>
-  <questiontext format="html">
-    <text><![CDATA[
-    <p>As máquinas-ferramenta CNC realizam diversas operações de usinagem. Mesmo com a variedade de máquinas CNC, o ___________ e a ___________ são os mais empregados no dia a dia dentro das indústrias.</p>
-    <p>Assinale a alternativa correta:</p>
-    ]]></text>
-  </questiontext>
-  <defaultgrade>1.0000000</defaultgrade>
-  <penalty>0.3333333</penalty>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
+    <name>
+      <text>q3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>As máquinas-ferramenta CNC realizam diversas operações de usinagem. Mesmo com a variedade de máquinas CNC, o ___________ e a ___________ são os mais empregados no dia a dia dentro das indústrias.</p><p>Assinale a alternativa correta:</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[torno CNC — fresadora CNC]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[retificadora CNC — puncionadeira CNC]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[viradeira CNC — corte a laser]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[injetora CNC — guilhotina CNC]]></text>
+    </answer>
+  </question>
 
-  <answer fraction="100"><text><![CDATA[torno CNC — fresadora CNC]]></text></answer>
-  <answer fraction="0"><text><![CDATA[retificadora CNC — puncionadeira CNC]]></text></answer>
-  <answer fraction="0"><text><![CDATA[viradeira CNC — corte a laser]]></text></answer>
-  <answer fraction="0"><text><![CDATA[injetora CNC — guilhotina CNC]]></text></answer>
-</question>
-
-<!-- question: q4 -->
 <question type="multichoice">
-  <name><text>q4</text></name>
-  <questiontext format="html">
-    <text><![CDATA[
-    <p>A Indústria 4.0 tem como objetivo o aumento de _________, ________ e ________, visando redução de custos.</p>
-    <p>Assinale a alternativa correta:</p>
-    ]]></text>
-  </questiontext>
-  <defaultgrade>1.0000000</defaultgrade>
-  <penalty>0.3333333</penalty>
-  <single>true</single>
+    <name>
+      <text>q4</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A Indústria 4.0 tem como objetivo o aumento de _________, ________ e ________, visando redução de custos.</p><p>Assinale a alternativa correta:</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answer fraction="100" format="html">
+      <text><![CDATA[produtividade — qualidade — competitividade]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[produtividade — qualidade — segurança]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[lucratividade — qualidade — segurança]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[produtividade — lucratividade — segurança]]></text>
+    </answer>
+  </question>
 
-  <answer fraction="100"><text><![CDATA[produtividade — qualidade — competitividade]]></text></answer>
-  <answer fraction="0"><text><![CDATA[produtividade — qualidade — segurança]]></text></answer>
-  <answer fraction="0"><text><![CDATA[lucratividade — qualidade — segurança]]></text></answer>
-  <answer fraction="0"><text><![CDATA[produtividade — lucratividade — segurança]]></text></answer>
-</question>
-
-<!-- question: q5 -->
 <question type="multichoice">
-  <name><text>q5</text></name>
-  <questiontext format="html">
-    <text><![CDATA[
-    <p>Mais de 80% da programação CNC utiliza determinada linguagem. Qual é ela?</p>
-    ]]></text>
-  </questiontext>
-  <defaultgrade>1.0000000</defaultgrade>
-  <single>true</single>
+    <name>
+      <text>q5</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Mais de 80% da programação CNC utiliza determinada linguagem. Qual é ela?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Conversacional]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[EIA/ISO]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Mazatrol]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Parametrizada]]></text>
+    </answer>
+  </question>
 
-  <answer fraction="0"><text><![CDATA[Conversacional]]></text></answer>
-  <answer fraction="100"><text><![CDATA[EIA/ISO]]></text></answer>
-  <answer fraction="0"><text><![CDATA[Mazatrol]]></text></answer>
-  <answer fraction="0"><text><![CDATA[Parametrizada]]></text></answer>
-</question>
-
-<!-- question: q6 -->
 <question type="multichoice">
-  <name><text>q6</text></name>
-  <questiontext format="html">
-    <text><![CDATA[
-    <p>A programação mais rápida e confiável é realizada por __________.</p>
-    ]]></text>
-  </questiontext>
-  <defaultgrade>1.0000000</defaultgrade>
-  <single>true</single>
+    <name>
+      <text>q6</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A programação mais rápida e confiável é realizada por __________.</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answer fraction="0" format="html">
+      <text><![CDATA[software CAD]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[comando manual]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[software CAM]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[software CAE]]></text>
+    </answer>
+  </question>
 
-  <answer fraction="0"><text><![CDATA[software CAD]]></text></answer>
-  <answer fraction="0"><text><![CDATA[comando manual]]></text></answer>
-  <answer fraction="100"><text><![CDATA[software CAM]]></text></answer>
-  <answer fraction="0"><text><![CDATA[software CAE]]></text></answer>
-</question>
-
-<!-- question: q7 -->
 <question type="multichoice">
-  <name><text>q7</text></name>
-  <questiontext format="html">
-    <text><![CDATA[
-    <p>Para compensação do raio da ferramenta usando G42, a compensação ocorre __________ da peça.</p>
-    ]]></text>
-  </questiontext>
-  <defaultgrade>1.0000000</defaultgrade>
-  <single>true</single>
+    <name>
+      <text>q7</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Para compensação do raio da ferramenta usando G42, a compensação ocorre __________ da peça.</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answer fraction="100" format="html">
+      <text><![CDATA[à direita da peça]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[à esquerda da peça]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[atrás da peça]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[na diagonal]]></text>
+    </answer>
+  </question>
 
-  <answer fraction="100"><text><![CDATA[à direita da peça]]></text></answer>
-  <answer fraction="0"><text><![CDATA[à esquerda da peça]]></text></answer>
-  <answer fraction="0"><text><![CDATA[atrás da peça]]></text></answer>
-  <answer fraction="0"><text><![CDATA[na diagonal]]></text></answer>
-</question>
-
-<!-- question: q8 -->
 <question type="multichoice">
-  <name><text>q8</text></name>
-  <questiontext format="html">
-    <text><![CDATA[
-    <p>Consulta a catálogos técnicos permite definir corretamente a __________ das pastilhas.</p>
-    ]]></text>
-  </questiontext>
-  <defaultgrade>1.0000000</defaultgrade>
-  <single>true</single>
+    <name>
+      <text>q8</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Consulta a catálogos técnicos permite definir corretamente a __________ das pastilhas.</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answer fraction="0" format="html">
+      <text><![CDATA[posição]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[geometria]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[material]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[montagem]]></text>
+    </answer>
+  </question>
 
-  <answer fraction="0"><text><![CDATA[posição]]></text></answer>
-  <answer fraction="100"><text><![CDATA[geometria]]></text></answer>
-  <answer fraction="0"><text><![CDATA[material]]></text></answer>
-  <answer fraction="0"><text><![CDATA[montagem]]></text></answer>
-</question>
-
-<!-- question: q9 -->
 <question type="multichoice">
-  <name><text>q9</text></name>
-  <questiontext format="html">
-    <text><![CDATA[
-    <p>Parâmetros de usinagem têm como referência o __________.</p>
-    ]]></text>
-  </questiontext>
-  <defaultgrade>1.0000000</defaultgrade>
-  <single>true</single>
+    <name>
+      <text>q9</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Parâmetros de usinagem têm como referência o __________.</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answer fraction="0" format="html">
+      <text><![CDATA[avanço de corte]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[VC]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[material da peça]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[tipo de máquina]]></text>
+    </answer>
+  </question>
 
-  <answer fraction="0"><text><![CDATA[avanço de corte]]></text></answer>
-  <answer fraction="0"><text><![CDATA[VC]]></text></answer>
-  <answer fraction="100"><text><![CDATA[material da peça]]></text></answer>
-  <answer fraction="0"><text><![CDATA[tipo de máquina]]></text></answer>
-</question>
-
-<!-- question: q10 -->
 <question type="multichoice">
-  <name><text>q10</text></name>
-  <questiontext format="html">
-    <text><![CDATA[
-    <p>Softwares CAM são utilizados para __________ o processo de manufatura.</p>
-    ]]></text>
-  </questiontext>
-  <defaultgrade>1.0000000</defaultgrade>
-  <single>true</single>
+    <name>
+      <text>q10</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Softwares CAM são utilizados para __________ o processo de manufatura.</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answer fraction="0" format="html">
+      <text><![CDATA[modificar]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[arquivar]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[desenvolver]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[desenhar]]></text>
+    </answer>
+  </question>
 
-  <answer fraction="0"><text><![CDATA[modificar]]></text></answer>
-  <answer fraction="0"><text><![CDATA[arquivar]]></text></answer>
-  <answer fraction="100"><text><![CDATA[desenvolver]]></text></answer>
-  <answer fraction="0"><text><![CDATA[desenhar]]></text></answer>
-</question>
+</quiz>
